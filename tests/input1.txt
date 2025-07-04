@@ -1,0 +1,59 @@
+Return-Path: <johan@swetzen.se>
+Delivered-To: svt-serie-dl@swetzen.com
+Received: from mail.simply.com [94.231.103.207]
+	by 035eed6dcdf9 with POP3 (fetchmail-6.4.37)
+	for <root@localhost> (single-drop); Fri, 04 Jul 2025 21:23:42 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.simply.com (Simply.com) with ESMTP id 4bYmpM6SDZz6v6t
+	for <svt-serie-dl@swetzen.com>; Fri,  4 Jul 2025 23:23:39 +0200 (CEST)
+Received: from mail-24421.protonmail.ch (mail-24421.protonmail.ch [109.224.244.21])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256
+	 client-signature RSA-PSS (4096 bits) client-digest SHA256)
+	(Client CN "protonmail.com", Issuer "R11" (verified OK))
+	by mail.simply.com (Simply.com) with ESMTPS id 4bYmpM3sFZz3hj1f
+	for <svt-serie-dl@swetzen.com>; Fri,  4 Jul 2025 23:23:39 +0200 (CEST)
+Authentication-Results: mail.simply.com; dmarc=pass (p=reject dis=none) header.from=swetzen.se
+Authentication-Results: mail.simply.com; spf=pass smtp.mailfrom=johan@swetzen.se
+Authentication-Results: mail.simply.com;
+	dkim=pass (2048-bit key) header.d=swetzen.se header.i=@swetzen.se header.b="LvB0Qf2D"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=swetzen.se;
+	s=protonmail2; t=1751664218; x=1751923418;
+	bh=RiZ3DibjJhnu5ZgxamI5hxWmPk6i1DkkCMCu+fWea+E=;
+	h=Date:To:From:Subject:Message-ID:Feedback-ID:From:To:Cc:Date:
+	 Subject:Reply-To:Feedback-ID:Message-ID:BIMI-Selector;
+	b=LvB0Qf2D0LFmuheHtYxVIVduVK63zx2ZifsM/sHfCIOjyZYYymv++7/MTZe3gl/l3
+	 g8JOfZJDqehX/Tpd9ce56W7rqMQn3lah1oDNpyeJae1av38v42eb1MhlnI2Ss56cmu
+	 XynGg3CD3mi479AOrZ4ZvOYqYSR4O7wEvOZ5UU2boLjb48iQFYaAOLOTLG9WgEolVb
+	 1RNLKo8GyWx806GoD4unji2QW4KsfHUEsgjYiZaXpuQ0FFFRNL1tddaoquCMD6goD2
+	 3Sq/7s6FqEHY48L+5klHJVmS9ehYs1QBFG8lwwexhB5aZsxFye8qGqIjEDhpFhlr0c
+	 hymFteuA5B+xg==
+Date: Fri, 04 Jul 2025 21:23:33 +0000
+To: "svt-serie-dl@swetzen.com" <svt-serie-dl@swetzen.com>
+From: =?utf-8?Q?Johan_Swetz=C3=A9n?= <johan@swetzen.se>
+Subject: Med rubrik
+Message-ID: <NyJmSTeImKdggLjlVxVXFVxQLAHasOGyZYUX73uZJEvX2PpwVtOG89vkcpDxv8qHfD10t9n5RPzt3pqlqg4WGiZsMP3-eaPWg6EMIqMVsxc=@swetzen.se>
+Feedback-ID: 37419266:user:proton
+X-Pm-Message-ID: ad537cfde2ea961887b8772c9481acda4c34c50a
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1=_sW4ItMnxTvJTEYoiiLIhnBCk4zYS1VtqNYRjkSKofbw"
+
+--b1=_sW4ItMnxTvJTEYoiiLIhnBCk4zYS1VtqNYRjkSKofbw
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+aHR0cHM6Ly93d3cuc3Z0cGxheS5zZS9maWxt
+
+--b1=_sW4ItMnxTvJTEYoiiLIhnBCk4zYS1VtqNYRjkSKofbw
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+
+PGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6IEFyaWFsLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDE0
+cHg7IiBjbGFzcz0icHJvdG9ubWFpbF9zaWduYXR1cmVfYmxvY2siPjxkaXYgY2xhc3M9InByb3Rv
+bm1haWxfc2lnbmF0dXJlX2Jsb2NrLXByb3RvbiBwcm90b25tYWlsX3NpZ25hdHVyZV9ibG9jay1l
+bXB0eSI+aHR0cHM6Ly93d3cuc3Z0cGxheS5zZS9maWxtPC9kaXY+DQo8L2Rpdj4NCg==
+
+
+--b1=_sW4ItMnxTvJTEYoiiLIhnBCk4zYS1VtqNYRjkSKofbw--
+
