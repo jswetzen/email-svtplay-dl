@@ -33,7 +33,7 @@ jobs:
       - name: Get latest svtplay-dl tag
         id: svtplay_tag
         run: |
-          tag=$(curl -s https://api.github.com/repos/spaam/svtplay-dl/releases/latest | jq -r .tag_name)
+          tag=$(curl -s https://api.github.com/repos/spaam/svtplay-dl/tags | jq -r '.[0].name')
           echo "tag=$tag" >> $GITHUB_OUTPUT
 
       - name: Log into registry ${{ env.REGISTRY }}
