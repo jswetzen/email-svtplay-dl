@@ -1,6 +1,8 @@
 FROM python:latest
 LABEL maintainer=jswetzen
 
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
+
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
       vim \
@@ -8,12 +10,6 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* && \
     chown -R 100:100 /var/lib/fetchmail
 RUN pip install cryptography pyyaml requests
-RUN git clone https://github.com/spaam/svtplay-dl.git && \
-    cd svtplay-dl && \
-    make && \
-    make install && \
-    cd .. && \
-    rm -r svtplay-dl
 
 COPY mailtrigger.sh /bin/mailtrigger
 COPY parsemailurl.py /bin/parsemailurl
